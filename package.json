@@ -1,0 +1,32 @@
+{
+  "name": "goes-bg",
+  "description": "Set the latest image from GOES-17 as your desktop background.",
+  "version": "0.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
+  "bin": "./cli.js",
+  "bugs": {
+    "url": "https://github.com/ungoldman/goes-bg/issues"
+  },
+  "dependencies": {
+    "cliclopts": "^1.1.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^1.0.4",
+    "untildify": "^4.0.0",
+    "wallpaper": "^5.0.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "homepage": "https://github.com/ungoldman/goes-bg",
+  "license": "CC0-1.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ungoldman/goes-bg.git"
+  },
+  "scripts": {
+    "start": "./cli.js",
+    "test": "standard"
+  }
+}
