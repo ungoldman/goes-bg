@@ -1,10 +1,11 @@
 # goes-bg
 
-This is a small command line program that sets the desktop background to the latest full disk geocolor image from GOES-17, a geostationary satellite operated by [NOAA](https://www.noaa.gov).
+> A small command line program to set your desktop background to the latest [Full Disk GeoColor](https://www.star.nesdis.noaa.gov/goes/fulldisk_band.php?sat=G16&band=GEOCOLOR&length=150) image from [GOES-16][16] and [GOES-17][17].
 
-![GOES-16 BG](./example-16.jpg)
+[GOES-16][16] and [GOES-17][17] are [geostationary](https://en.wikipedia.org/wiki/Geostationary_orbit) satellites operated by [NOAA](https://www.noaa.gov).
 
-![GOES-17 BG](./example-17.jpg)
+[16]: https://en.wikipedia.org/wiki/GOES-16
+[17]: https://en.wikipedia.org/wiki/GOES-17
 
 ## Usage
 
@@ -12,7 +13,28 @@ This is a small command line program that sets the desktop background to the lat
 npx goes-bg
 ```
 
-### Help
+### Options
+
+#### [GOES-16][16]
+
+![GOES-16 BG](./example-16.jpg)
+
+<em>(default)</em>
+
+```
+npx goes-bg -s 16
+```
+
+#### [GOES-17][17]
+
+![GOES-17 BG](./example-17.jpg)
+
+
+```
+npx goes-bg -s 17
+```
+
+#### Help
 
 ```
 goes-bg --help
