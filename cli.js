@@ -7,9 +7,14 @@ const pkg = require('./package.json')
 
 const allowedOptions = [
   {
+    name: 'sat',
+    abbr: 's',
+    help: 'GOES Satellite to use (16 or 17). (default: 16)'
+  },
+  {
     name: 'outfile',
     abbr: 'o',
-    help: 'Location to save image. (default: ~/Pictures/goes-bg/$TIMESTAMP.jpg)'
+    help: 'Location to save image. (default: ~/Pictures/goes-bg/latest.jpg)'
   },
   {
     name: 'help',
