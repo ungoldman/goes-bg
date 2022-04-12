@@ -13,26 +13,23 @@
 npx goes-bg
 ```
 
-### Options
+### Satellites
 
-#### [GOES-16][16]
-
-![GOES-16 BG](./example-16.jpg)
-
-<em>(default)</em>
+#### [GOES-16][16] <em>(default)</em>
 
 ```
 npx goes-bg -s 16
 ```
 
+![GOES-16 BG](./example-16.jpg)
+
 #### [GOES-17][17]
-
-![GOES-17 BG](./example-17.jpg)
-
 
 ```
 npx goes-bg -s 17
 ```
+
+![GOES-17 BG](./example-17.jpg)
 
 #### Help
 
