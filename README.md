@@ -2,15 +2,26 @@
 
 This is a small command line program that sets the desktop background to the latest full disk geocolor image from GOES-17, a geostationary satellite operated by [NOAA](https://www.noaa.gov).
 
-![GOES-17 BG](./sample.png)
+![GOES-16 BG](./example-16.jpg)
+
+![GOES-17 BG](./example-17.jpg)
 
 ## Usage
 
 ```
-git clone git@github.com:ungoldman/goes-bg.git
-cd goes-bg
-npm install
-npm start
+npx goes-bg
+```
+
+### Help
+
+```
+goes-bg --help
+
+Usage: goes-bg [options]
+
+    --sat, -s             GOES Satellite to use (16 or 17). (default: 16)
+    --outfile, -o         Location to save image. (default: ~/Pictures/goes-bg/latest.jpg)
+    --help, -h            Show help.
 ```
 
 ## Support/Maintenance
