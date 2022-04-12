@@ -1,6 +1,6 @@
 {
   "name": "goes-bg",
-  "description": "Set the latest image from GOES-17 as your desktop background.",
+  "description": "Set the latest image from GOES 16 & 17 as your desktop background.",
   "version": "0.0.0",
   "author": "Nate Goldman <ungoldman@gmail.com>",
   "bin": "./cli.js",
