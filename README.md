@@ -49,4 +49,4 @@ This is released as-is as an experimental proof of concept, for educational purp
 
 ## License
 
-Public Domain ([Creative Commons Zero v1.0 Universal](https://spdx.org/licenses/CC0-1.0.html))
+Public Domain ([CC0-1.0](https://spdx.org/licenses/CC0-1.0.html))
